@@ -13,6 +13,9 @@ permalink: /blog/:year/:month/:day/:title
 archive: false
 disqus: false
 
+plugins:
+  - jekyll-paginate
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
